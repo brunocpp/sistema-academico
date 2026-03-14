@@ -7,7 +7,7 @@ int main(void) {
     float grade;
 
     printf("Enter your name?:");
-    scanf("%s", name);
+    scanf(" %[^\n]", name);
 
     printf("Enter your student id?:");
     scanf("%s", student_id);
