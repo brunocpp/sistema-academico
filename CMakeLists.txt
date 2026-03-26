@@ -8,4 +8,5 @@ include_directories(include)
 add_executable(sistema_academico
     src/main.c
         src/main.c
+        src/student.h
 )
